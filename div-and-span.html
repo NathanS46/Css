@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal Css</title>
+    <style>
+      /* p {
+        color: green;
+        font-size: 24px;
+      } */
+      h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+      body {
+        background-color: aqua;
+      }
+      #styled-by-id {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: bold;
+      }
+      li {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      #nav-link {
+        margin: 4px;
+        padding: 5px;
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;
+        background-color: lightblue;
+        color: #f5f5ff;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="your-link.css" /> -->
+  </head>
+  <body>
+    <nav>
+      <ul style="list-style: none">
+        <li style="display: inline" id="nav-link">
+          <a href="index.html">Home</a>
+        </li>
+        <li style="display: inline" id="nav-link">
+          <a href="internal-css.html">Internal CSS page</a>
+        </li>
+        <li style="display: inline" id="nav-link">
+          <a href="external-css.html">External CSS page</a>
+        </li>
+        <li style="display: inline" id="nav-link">
+          <a href="testing-cascading.html">Testing Cascading page</a>
+        </li>
+        <li style="display: inline" id="nav-link">
+          <a href="classes-and-ids.html">Classes and Id page</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div style="background-color: ghostwhite; height: 180px; width: auto">
+      <h1>Welcome to ID selector</h1>
+
+      <p id="styled-by-id">
+        This page shows the effects of giving an element an id and
+        <span style="background-color: aquamarine; font-style: italic"
+          >styling</span
+        >
+        that id
+      </p>
+      <p>This is a test</p>
+    </div>
+
+    <p>
+      My mother has<span style="color: blue; font-weight: bold"> blue </span>
+      eyes and my father has
+      <span style="color: darkolivegreen; font-weight: bold"> dark green </span
+      >eyes
+    </p>
+  </body>
+</html>

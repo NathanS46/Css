@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background</title>
+    <link rel="stylesheet" href="css/css-pages-style.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: ghostwhite;
+      }
+      section p {
+        font-weight: bold;
+      }
+      h2 {
+        text-align: center;
+        font-size: 48px;
+      }
+      section {
+        color: #291541;
+        font-size: 20px;
+        background-color: yellow;
+      }
+      li {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      nav a {
+        /* this margin increase the gap between the edges */
+        margin: 4px;
+        /* this padding is making the box around the text bigger */
+        padding: 5px;
+        /* this border makes a small black border around the box */
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;
+        background-color: lightblue;
+        color: black;
+      }
+      a:focus:hover {
+        color: white;
+      }
+      a:hover {
+        color: white;
+        background-color: black;
+      }
+    </style>
+    <nav>
+      <ul style="list-style: none">
+        <li style="display: inline" id="nav-link">
+          <a href="index.html">Home</a>
+        </li>
+        <li style="display: inline" id="nav-link">
+          <a href="internal-css.html">Internal CSS page</a>
+        </li>
+        <li style="display: inline" id="nav-link">
+          <a href="external-css.html">External CSS page</a>
+        </li>
+        <li style="display: inline" id="nav-link">
+          <a href="testing-cascading.html">Testing Cascading page</a>
+        </li>
+        <li style="display: inline" id="nav-link">
+          <a href="classes-and-ids.html">Classes and Id page</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Background and Text</h2>
+    </main>
+    <section style="overflow: scroll">
+      <p>Lorem ipsum yes yes yes yes yes yes yes</p>
+      <p>Lorem ipsum is used for filling empty text</p>
+      <p>Lorem ipsum Yes for sure is filer text</p>
+    </section>
+  </body>
+</html>

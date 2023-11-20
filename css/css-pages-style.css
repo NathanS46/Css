@@ -1,5 +1,4 @@
 p {
-  color: green;
   font-size: 24px;
 }
 h1 {
@@ -8,6 +7,7 @@ h1 {
 }
 body {
   background-color: aqua;
+  margin: 5% 10% 5% 10%;
 }
 ul {
   color: azure;
@@ -18,4 +18,19 @@ table {
 }
 h2 {
   text-align: right;
+}
+section p {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  color: #5ac88b;
+  margin: 1% 10% 1% 10%;
+  overflow: visible;
+}
+section {
+  margin: 1% 10% 1% 10%;
+  border: 10px black groove;
+}
+iframe {
+  margin: 10% 10% 15% 10%;
 }
